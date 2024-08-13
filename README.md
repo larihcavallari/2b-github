@@ -6,4 +6,6 @@
 
 - ## Voce entrar em contato comigo ##
 
-- 
+- 00001101194467@al.educacao.sp.gov.br
+
+![](https://media.tenor.com/GTCSlk5h3NsAAAAi/motion-cat-transparent.gif)
