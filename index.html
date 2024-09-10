@@ -1,39 +1,9 @@
-/*
- * @name Shader Using Webcam
- * @arialabel Neon texture added to the scene displayed by the user’s built-in webcam
- * @description The webcam can be passed to shaders as a texture.
- * <br> To learn more about using shaders in p5.js: <a href="https://itp-xstory.github.io/p5js-shaders/">p5.js Shaders</a>
- */
+<body></body>
+    <header>ALURAFLIX</header>
 
- // this variable will hold our shader object
- let theShader;
- // this variable will hold our webcam video
- let cam;
+    <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
+    <p>#homem-aranha</p>
 
- function preload(){
-   // load the shader
-   theShader = loadShader('assets/webcam.vert', 'assets/webcam.frag');
- }
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
- function setup() {
-   // shaders require WEBGL mode to work
-   createCanvas(710, 400, WEBGL);
-   noStroke();
-
-   cam = createCapture(VIDEO);
-   cam.size(710, 400);
-
-   cam.hide();
- }
-
- function draw() {
-   // shader() sets the active shader with our shader
-   shader(theShader);
-
-   // passing cam as a texture
-   theShader.setUniform('tex0', cam);
-
-   // rect gives us some geometry on the screen
-   rect(0,0,width,height);
- }
-
+</body>
